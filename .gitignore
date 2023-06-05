@@ -1,1 +1,7 @@
 /venv
+/build
+/dist
+*.pem
+config.yaml
+*.log
+*.spec
