@@ -1,0 +1,20 @@
+- intermediate_host: 10.0.4.124
+  intermediate_port: 22
+  ssh_username: truongdt3
+  ssh_password: example
+  remote_bind_address: 
+    host: 10.221.180.139
+    port: 22
+  local_bind_address:
+    host: 127.0.0.1
+    port: 2225
+- intermediate_host: 127.0.0.1
+  intermediate_port: 2225
+  ssh_username: ubuntu
+  ssh_pkey: analytics-prod.pem
+  remote_bind_address: 
+    host: 54.251.202.212
+    port: 22
+  local_bind_address:
+    host: 127.0.0.1
+    port: 2233
