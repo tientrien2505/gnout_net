@@ -1,0 +1,1 @@
+pyinstaller --onefile -w -n gnourt_net 'main.py'

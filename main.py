@@ -41,7 +41,7 @@ def parse_arguments() -> CustomNamespace:
     return parser.parse_args(namespace=CustomNamespace)
 
 def get_logger():
-    logging.basicConfig(level=logging.WARNING, filename='logs.log', filemode='a')
+    logging.basicConfig(level=logging.INFO, filename='logs.log', filemode='a', format='%(asctime)s %(levelname)-8s %(name)-15s %(message)s')
     return logging.getLogger(__name__)
 
 
